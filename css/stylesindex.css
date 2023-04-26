@@ -1,0 +1,41 @@
+.image {
+    display: inline-block;
+    width: 15%; /* adjust as necessary */
+    margin: 5px; /* adjust as necessary */
+  }
+  body {
+	font-family:serif;
+}
+.header{
+    height:100px;
+    background-color:rgb(144, 176, 171);
+    color:white;
+    line-height: 100px;
+    text-align:center;
+}
+.resume{
+    text-align:center;
+    background-color: #ccc;
+}
+.resume a:hover {
+    background-color: #acacace6;
+   }
+.footer{
+    background-color: rgba(159, 174, 173, 0.868);
+    height: 25px;
+    position: fixed;
+    bottom: 5px;
+    right:5px;
+    left: 5px;
+}
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .footer a:hover {
+   background-color: #acacace6;
+  }
+
+p{font-weight: 900;}
